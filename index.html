@@ -1,3 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: Acme, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+main {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	background-color: #ddd;
+	display: flex;
+	flex-direction: column;
+}
+
+input,
+button {
+	padding: 0.5rem;
+}
+
+button {
+	margin: 0.5rem;
+}
+
+.delete {
+	width: fit-content;
+}
+
+.input {
+	display: flex;
+	gap: 1rem;
+}
+
+.list {
+	padding: 0.5rem;
+}
+
+ul {
+	margin: 1rem;
+	list-style: none;
+}
+
+li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@media only screen and (min-width: 32.5em) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	main {
+		width: 320px;
+	}
+}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +75,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WDD 131 - Dynamic Web Fundamentals - Hector Zambrano</title>
   <meta name="author" content="Hector Zambrano" />
-  <meta name="Description" content="WDD 131 - Dynamic Web Fundamentals,Hectot Zambrano.inicial page of our website to introduce our content" />
+  <meta name="Description" content="WDD 131 - Dynamic Web Fundamentals,Hector Zambrano.inicial page of our website to introduce our content" />
   <link rel="stylesheet" href="./styles/base.css">
   <script defer src="./scripts/getdates.js"></script>
 </head>
